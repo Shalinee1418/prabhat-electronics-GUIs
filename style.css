@@ -1,0 +1,14 @@
+*
+header {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    margin :auto;
+    display: grid;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar ul {
+    
+}
