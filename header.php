@@ -6,5 +6,5 @@
             <a href="#">About</a>
             <a href="#">Sales</a>
             <a href="service.php">Service</a>
-            <a href="#">Contact</a>
+            <a href="purchase.php">Purchase</a>
         </nav>
