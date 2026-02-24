@@ -46,9 +46,9 @@
                 <span>
                     
                 </span>
-                <span>
+                <div>
                     <button class="button">Submit</button>
-                </span>
+</div>
             </form>
         </section>
     </main>
