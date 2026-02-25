@@ -1,6 +1,9 @@
 <body>
     <header>
-        <h2>Prabhat Electronics</h2>
+        <span class="logo">
+            <img src="images/prabhat-electronics.jpg" alt="">
+            <h2>Prabhat Electronics</h2>
+        </span>
         <nav>
             <a href="index.php">Home</a>
             <a href="#">About</a>

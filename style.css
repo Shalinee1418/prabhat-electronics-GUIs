@@ -3,6 +3,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header .logo {
+  display: flex;
+}
+header img {
+  width: 64px;
+}
+
 header h2 {
   padding: 10px;
 }
@@ -39,20 +46,19 @@ main {
 }
 
 .table-1 {
-    width: 100%;
-    margin-top: 20px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .table-1 th {
-    background-color: cornflowerblue;
-    color: white;
-    padding: 5px;
-
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px;
 }
 
 .table-1 td {
-    border: cornflowerblue 1px solid;
-    padding: 5px;
+  border: cornflowerblue 1px solid;
+  padding: 5px;
 }
 
 .form-1 {
@@ -72,16 +78,18 @@ select {
 .form-1 button {
   border: none;
 }
-.form-2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 20px;
 
+.form-1 table {
+  grid-column: span 2;
+  text-align: left;
+  margin-top: 20px;
+  padding-right: 20px;
 }
-.form-2 input,
-select {
-  padding: 5px;
-  display: block;
-  margin-bottom: 10px;
-  width: 300px;
+
+.form-1 table input {
+  width: 97%;
+}
+
+.column-2 {
+  justify-self: end;
 }
