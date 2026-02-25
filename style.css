@@ -72,3 +72,16 @@ select {
 .form-1 button {
   border: none;
 }
+.form-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+
+}
+.form-2 input,
+select {
+  padding: 5px;
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+}
