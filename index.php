@@ -4,35 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment Home</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <?php require 'header.php'; ?>
-    </header>
-    <main>
-        <aside>
-            <?php require 'aside.php' ?>
-        </aside>
-        <section>
-            <h2>Home</h2>
-        </section>
-    </main>
-    <footer>
-        <?php require 'footer.php' ?>
-    </footer>
-</body>
 
-<div class="container">
-
-
-
-</div>
-</header>
-<link rel="stylesheet" href="styles.css">
-
-</body>
+        <body>
+            <header>
+                <span class="logo">
+                    <img src="images/prabhat-electronics.jpg" alt="">
+                    <h2>Prabhat Electronics</h2>
+                    <span>
+                        <a href="signin.php" class="button">Sign In</a>
+                        <a href="signup.php" class="button">Sign Up</a>
+                    </span>
+                </span>
+                <nav>
+                    <a href="index.php">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Sales</a>
+                    <a href="service.php">Service</a>
+                    <a href="purchase.php">Purchase</a>
+                </nav>
+            </header>
+        </body>
 
 </html>
