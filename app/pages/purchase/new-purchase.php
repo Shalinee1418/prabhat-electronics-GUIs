@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>PE-New Purchase</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <?php require 'header.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
     </header>
     <main>
-        <aside>
-            <?php require 'aside.php' ?>
-        </aside>
         <section>
             <h2> Purchase Form </h2>
             <form class="form-1">
@@ -61,7 +58,6 @@
                 </table>
             </form>
         </section>
-
 </body>
 
 </html>

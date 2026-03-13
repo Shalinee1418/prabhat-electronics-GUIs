@@ -13,8 +13,9 @@ if (!isset($_SESSION['email']))
     <a href="#">About</a>
     <a href="#">Sales</a>
     <a href="service.php">Service</a>
-    <a href="purchase.php">Purchase</a>
+    <a href="/app/pages/purchase/purchase.php">Purchase</a>
     <a href="" style="float:right"><?php
                 echo $_SESSION['email'];
                 ?></a>
+    <a href="/auth/logout.php" style="float:right">Logout</a>
 </nav>
