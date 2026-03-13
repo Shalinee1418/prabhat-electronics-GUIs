@@ -1,0 +1,5 @@
+# Homepage settings
+DirectoryIndex public/index.php
+
+# Redirect old homepage to new page
+Redirect /index.php  public/index.php

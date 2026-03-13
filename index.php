@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -17,8 +17,8 @@
                     <img src="images/prabhat-electronics.jpg" alt="">
                     <h2>Prabhat Electronics</h2>
                     <span>
-                        <a href="signin.php" class="button">Sign In</a>
-                        <a href="signup.php" class="button">Sign Up</a>
+                        <a href="../app/pages/signin.php" class="button">Sign In</a>
+                        <a href="../app/pages/signup.php" class="button">Sign Up</a>
                     </span>
                 </span>
                 <nav>
